@@ -1,0 +1,19 @@
+
+.companies-container {
+
+  .companies-inner {
+    @include outer-container;
+    margin: auto;
+    padding-top: 3em;
+
+    .company {
+      margin: auto;
+      min-height: 400px;
+      width: 80%;
+      text-align: center;
+    }
+
+  }
+
+}
+
