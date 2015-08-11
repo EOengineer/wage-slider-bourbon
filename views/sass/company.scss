@@ -9,8 +9,32 @@
     .company {
       margin: auto;
       min-height: 400px;
-      width: 80%;
+      width: 60%;
       text-align: center;
+
+      .slider-container {
+        margin: auto;
+        margin-top: 2em;
+
+        input[type="range"] {
+          -webkit-appearance: none !important;
+          width: 100%;
+          margin: auto;
+          background-color: #52656D;
+          border-radius: 50px;
+          border: 1px solid black;
+        }
+        #rangevalue {
+          margin-right: -70px;
+        }
+        .wage-zero {
+          float: left;
+        }
+        .ceo-salary {
+          float: right;
+        }
+      }
+
     }
 
   }
