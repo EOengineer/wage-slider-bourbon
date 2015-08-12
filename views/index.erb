@@ -20,10 +20,10 @@
       <div class="slider-container">
         <div class="slider">
           CEO Salary
-          <input type = "range" min="0%" max="100" value="100" step=".5" onchange="rangevalue.value=value"/>
+          <input type = "range" id="slider" min="0" max="100" value="100" step=".5" onchange="rangevalue.value=value"/>
           <span class="wage-zero">$0</span>
           <output id="rangevalue">100</output>
-          <span class="ceo-salary">$<%= company[:ceo_salary] %></span>
+          <span id="ceo-salary" class="ceo-salary">$<%= company[:ceo_salary] %></span>
           </div>
         </div>
     </div>
