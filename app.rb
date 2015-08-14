@@ -12,7 +12,7 @@ end
 
 get '/' do
   @companies = [
-                { name: "McDonalds", employees: "50,0000", ceo_salary: '50,000,000', average: "16.00", minumum: "10.00",
+                { name: "McDonalds", employees: 500000, ceo_salary: 50000000, average: 16, minumum: 10,
                   image: "http://img3.wikia.nocookie.net/__cb20120307000443/logopedia/images/e/e9/Mcdonalds-95-logo.png" }]
 
   erb :index, :layout => :default_layout
